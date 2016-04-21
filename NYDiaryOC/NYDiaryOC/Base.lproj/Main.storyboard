@@ -121,7 +121,7 @@
         <!--New Diary-->
         <scene sceneID="LXz-PL-6Jf">
             <objects>
-                <viewController title="New Diary" id="Bam-iM-35z" sceneMemberID="viewController">
+                <viewController title="New Diary" id="Bam-iM-35z" customClass="DiaryAddNewViewController" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="B7X-L3-zXr"/>
                         <viewControllerLayoutGuide type="bottom" id="AXu-8C-jhw"/>
@@ -150,7 +150,16 @@
                                 <state key="normal" title="OK">
                                     <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
+                                <connections>
+                                    <action selector="completeDiaryDataForm:" destination="Bam-iM-35z" eventType="touchUpInside" id="XdU-lp-OVU"/>
+                                </connections>
                             </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Content" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="beG-9b-beU">
+                                <rect key="frame" x="25" y="122" width="62" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <constraints>
@@ -160,12 +169,18 @@
                             <constraint firstItem="kew-RH-dP2" firstAttribute="top" secondItem="AIt-a4-xzo" secondAttribute="bottom" constant="22" id="N9w-1d-WNe"/>
                             <constraint firstItem="AXu-8C-jhw" firstAttribute="top" secondItem="kew-RH-dP2" secondAttribute="bottom" constant="133" id="Paj-yo-F1X"/>
                             <constraint firstAttribute="trailingMargin" secondItem="kew-RH-dP2" secondAttribute="trailing" id="awb-jV-l3E"/>
+                            <constraint firstItem="beG-9b-beU" firstAttribute="leading" secondItem="Fu1-wj-SLi" secondAttribute="leadingMargin" constant="5" id="eas-Q6-1dD"/>
+                            <constraint firstItem="beG-9b-beU" firstAttribute="top" secondItem="Fp9-Rd-WIx" secondAttribute="bottom" constant="8" id="m6u-e4-3by"/>
                             <constraint firstAttribute="leadingMargin" secondItem="AIt-a4-xzo" secondAttribute="leading" id="mCL-hk-z8R"/>
                             <constraint firstAttribute="leadingMargin" secondItem="Fp9-Rd-WIx" secondAttribute="leading" id="men-hk-5Ey"/>
                             <constraint firstAttribute="trailingMargin" secondItem="AIt-a4-xzo" secondAttribute="trailing" id="tuF-0Y-09l"/>
                             <constraint firstItem="AIt-a4-xzo" firstAttribute="top" secondItem="Fp9-Rd-WIx" secondAttribute="bottom" constant="41" id="yzD-oG-kbf"/>
                         </constraints>
                     </view>
+                    <connections>
+                        <outlet property="contentTextView" destination="AIt-a4-xzo" id="fa6-Af-VZm"/>
+                        <outlet property="titleTextField" destination="Fp9-Rd-WIx" id="GaQ-7G-3AQ"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="JdZ-M0-sgG" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>

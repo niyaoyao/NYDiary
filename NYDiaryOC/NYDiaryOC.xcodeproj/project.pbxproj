@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		8C5EE8421CC929A200E5CC8A /* DiaryRefreshControl.m in Sources */ = {isa = PBXBuildFile; fileRef = 8C5EE8411CC929A200E5CC8A /* DiaryRefreshControl.m */; };
+		8C5EE8451CC94BC000E5CC8A /* DiaryAddNewViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8C5EE8441CC94BC000E5CC8A /* DiaryAddNewViewController.m */; };
 		8CA40FE31CAE7AD0001B50BA /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 8CA40FE21CAE7AD0001B50BA /* main.m */; };
 		8CA40FEC1CAE7AD0001B50BA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8CA40FEA1CAE7AD0001B50BA /* Main.storyboard */; };
 		8CA40FEF1CAE7AD0001B50BA /* NYDiaryOC.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 8CA40FED1CAE7AD0001B50BA /* NYDiaryOC.xcdatamodeld */; };
@@ -49,6 +50,8 @@
 /* Begin PBXFileReference section */
 		8C5EE8401CC929A200E5CC8A /* DiaryRefreshControl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DiaryRefreshControl.h; sourceTree = "<group>"; };
 		8C5EE8411CC929A200E5CC8A /* DiaryRefreshControl.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DiaryRefreshControl.m; sourceTree = "<group>"; };
+		8C5EE8431CC94BC000E5CC8A /* DiaryAddNewViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DiaryAddNewViewController.h; sourceTree = "<group>"; };
+		8C5EE8441CC94BC000E5CC8A /* DiaryAddNewViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DiaryAddNewViewController.m; sourceTree = "<group>"; };
 		8CA40FDE1CAE7AD0001B50BA /* NYDiaryOC.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NYDiaryOC.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8CA40FE21CAE7AD0001B50BA /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		8CA40FEB1CAE7AD0001B50BA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -220,6 +223,8 @@
 				8CF1C6431CC33E65006152E6 /* DiarySetPasswordKeyViewController.m */,
 				8CF1C6441CC33E65006152E6 /* ViewController.h */,
 				8CF1C6451CC33E65006152E6 /* ViewController.m */,
+				8C5EE8431CC94BC000E5CC8A /* DiaryAddNewViewController.h */,
+				8C5EE8441CC94BC000E5CC8A /* DiaryAddNewViewController.m */,
 			);
 			path = Module;
 			sourceTree = "<group>";
@@ -380,6 +385,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				8CF1C6531CC33E65006152E6 /* DiarySetPasswordKeyViewController.m in Sources */,
+				8C5EE8451CC94BC000E5CC8A /* DiaryAddNewViewController.m in Sources */,
 				8CF1C64E1CC33E65006152E6 /* NSString+DiaryString.m in Sources */,
 				8CF1C6521CC33E65006152E6 /* DiaryMainViewController.m in Sources */,
 				8CF1C6571CC33E65006152E6 /* DiaryRequestManager.m in Sources */,

@@ -1,10 +1,11 @@
 {
-  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "A3EE9233EF55707F5DE67C94275B7FCF8E262EE3+++F219648",
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "E8AC4F0AB18ACD894719D860113250697D6B8319+++354EFE0",
   "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
 
   },
   "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
     "A3EE9233EF55707F5DE67C94275B7FCF8E262EE3+++29EDBCE" : 0,
+    "E8AC4F0AB18ACD894719D860113250697D6B8319+++354EFE0" : 0,
     "A3EE9233EF55707F5DE67C94275B7FCF8E262EE3+++D3F02CD" : 0,
     "A3EE9233EF55707F5DE67C94275B7FCF8E262EE3+++9DB021B" : 0,
     "A3EE9233EF55707F5DE67C94275B7FCF8E262EE3+++F219648" : 0
@@ -12,6 +13,7 @@
   "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "FAA9D858-49BA-4164-8005-B616E84E79CC",
   "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
     "A3EE9233EF55707F5DE67C94275B7FCF8E262EE3+++29EDBCE" : "NYDiaryOC\/",
+    "E8AC4F0AB18ACD894719D860113250697D6B8319+++354EFE0" : "NYDairy\/",
     "A3EE9233EF55707F5DE67C94275B7FCF8E262EE3+++D3F02CD" : "",
     "A3EE9233EF55707F5DE67C94275B7FCF8E262EE3+++9DB021B" : "",
     "A3EE9233EF55707F5DE67C94275B7FCF8E262EE3+++F219648" : "NYDairyOC\/"
@@ -39,6 +41,11 @@
       "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "github.com:bearni\/NYDairyOC.git",
       "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
       "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "A3EE9233EF55707F5DE67C94275B7FCF8E262EE3+++F219648"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "github.com:niyaoyao\/NYDiary.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "E8AC4F0AB18ACD894719D860113250697D6B8319+++354EFE0"
     }
   ]
 }

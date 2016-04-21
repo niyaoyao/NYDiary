@@ -1,0 +1,44 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "A3EE9233EF55707F5DE67C94275B7FCF8E262EE3+++F219648",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "A3EE9233EF55707F5DE67C94275B7FCF8E262EE3+++29EDBCE" : 0,
+    "A3EE9233EF55707F5DE67C94275B7FCF8E262EE3+++D3F02CD" : 0,
+    "A3EE9233EF55707F5DE67C94275B7FCF8E262EE3+++9DB021B" : 0,
+    "A3EE9233EF55707F5DE67C94275B7FCF8E262EE3+++F219648" : 0
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "FAA9D858-49BA-4164-8005-B616E84E79CC",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "A3EE9233EF55707F5DE67C94275B7FCF8E262EE3+++29EDBCE" : "NYDiaryOC\/",
+    "A3EE9233EF55707F5DE67C94275B7FCF8E262EE3+++D3F02CD" : "",
+    "A3EE9233EF55707F5DE67C94275B7FCF8E262EE3+++9DB021B" : "",
+    "A3EE9233EF55707F5DE67C94275B7FCF8E262EE3+++F219648" : "NYDairyOC\/"
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "NYDiaryOC",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "NYDiaryOC\/NYDiaryOC.xcodeproj",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/bearni\/NYDairyOC.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "A3EE9233EF55707F5DE67C94275B7FCF8E262EE3+++29EDBCE"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/bearni\/NYDairyOC.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "A3EE9233EF55707F5DE67C94275B7FCF8E262EE3+++9DB021B"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/bearni\/NYDairyOC.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "A3EE9233EF55707F5DE67C94275B7FCF8E262EE3+++D3F02CD"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "github.com:bearni\/NYDairyOC.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "A3EE9233EF55707F5DE67C94275B7FCF8E262EE3+++F219648"
+    }
+  ]
+}

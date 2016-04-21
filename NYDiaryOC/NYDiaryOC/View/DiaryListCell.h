@@ -7,9 +7,11 @@
 //
 
 #import <UIKit/UIKit.h>
-
-#define DIARY_LIST_CELL_IDENTIFIER @"DiaryListCell"
+@class DiaryObject;
 
 @interface DiaryListCell : UITableViewCell
+
+- (void)updateWithDiary:(DiaryObject *)diary;
++ (CGFloat)heightWithDiary:(DiaryObject *)diary;
 
 @end

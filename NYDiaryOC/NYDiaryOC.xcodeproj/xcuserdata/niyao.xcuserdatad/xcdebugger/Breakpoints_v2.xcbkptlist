@@ -32,16 +32,16 @@
       <BreakpointProxy
          BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
          <BreakpointContent
-            shouldBeEnabled = "Yes"
+            shouldBeEnabled = "No"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
-            filePath = "NYDiaryOC/Module/DiaryMainViewController.m"
-            timestampString = "482566027.204747"
+            filePath = "NYDiaryOC/View/DiaryRefreshControl.m"
+            timestampString = "482947559.485968"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "52"
-            endingLineNumber = "52"
-            landmarkName = "-viewDidAppear:"
+            startingLineNumber = "34"
+            endingLineNumber = "34"
+            landmarkName = "-scrollViewDidEndDragging:willDecelerate:"
             landmarkType = "5">
          </BreakpointContent>
       </BreakpointProxy>

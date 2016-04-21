@@ -25,4 +25,21 @@
     return parameterString;
 }
 
+- (CGFloat)heightWithSize:(CGSize)size font:(UIFont *)font {
+    return [self boundingRectWithSize:size
+                              options:NSStringDrawingUsesFontLeading|NSStringDrawingUsesLineFragmentOrigin
+                           attributes:@{NSFontAttributeName:font}
+                              context:nil].size.height;
+}
+
+- (CGFloat)heightWithWidth:(CGFloat)width font:(UIFont *)font {
+    return [self heightWithSize:CGSizeMake(width, MAXFLOAT)
+                           font:font];
+}
+
+- (CGFloat)heightForScreenWithFont:(UIFont *)font {
+    CGFloat maxWidth = [UIScreen mainScreen].bounds.size.width;
+    return [self heightWithWidth:maxWidth font:font];
+}
+
 @end

@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		8C5EE8421CC929A200E5CC8A /* DiaryRefreshControl.m in Sources */ = {isa = PBXBuildFile; fileRef = 8C5EE8411CC929A200E5CC8A /* DiaryRefreshControl.m */; };
 		8CA40FE31CAE7AD0001B50BA /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 8CA40FE21CAE7AD0001B50BA /* main.m */; };
 		8CA40FEC1CAE7AD0001B50BA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8CA40FEA1CAE7AD0001B50BA /* Main.storyboard */; };
 		8CA40FEF1CAE7AD0001B50BA /* NYDiaryOC.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 8CA40FED1CAE7AD0001B50BA /* NYDiaryOC.xcdatamodeld */; };
@@ -46,6 +47,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		8C5EE8401CC929A200E5CC8A /* DiaryRefreshControl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DiaryRefreshControl.h; sourceTree = "<group>"; };
+		8C5EE8411CC929A200E5CC8A /* DiaryRefreshControl.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DiaryRefreshControl.m; sourceTree = "<group>"; };
 		8CA40FDE1CAE7AD0001B50BA /* NYDiaryOC.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NYDiaryOC.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8CA40FE21CAE7AD0001B50BA /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		8CA40FEB1CAE7AD0001B50BA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -239,6 +242,8 @@
 			children = (
 				8CF1C6591CC36361006152E6 /* DiaryListCell.h */,
 				8CF1C65A1CC36361006152E6 /* DiaryListCell.m */,
+				8C5EE8401CC929A200E5CC8A /* DiaryRefreshControl.h */,
+				8C5EE8411CC929A200E5CC8A /* DiaryRefreshControl.m */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -378,6 +383,7 @@
 				8CF1C64E1CC33E65006152E6 /* NSString+DiaryString.m in Sources */,
 				8CF1C6521CC33E65006152E6 /* DiaryMainViewController.m in Sources */,
 				8CF1C6571CC33E65006152E6 /* DiaryRequestManager.m in Sources */,
+				8C5EE8421CC929A200E5CC8A /* DiaryRefreshControl.m in Sources */,
 				8CF1C64D1CC33E65006152E6 /* NSObject+DiaryObject.m in Sources */,
 				8CF1C6541CC33E65006152E6 /* ViewController.m in Sources */,
 				8CF1C6501CC33E65006152E6 /* AppDelegate.m in Sources */,

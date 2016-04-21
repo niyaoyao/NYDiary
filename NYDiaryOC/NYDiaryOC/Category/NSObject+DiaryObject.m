@@ -42,7 +42,6 @@
 
 + (instancetype)modelWithDictionary:(NSDictionary *)dictionary {
     id modelObject = [[self alloc] init];
-    NSArray *properties = [self getClassProperties];
     NSDictionary *mappers = [self propertyMapper];
     for (NSString *key in dictionary.allKeys) {
         NSString *modelKey = ([mappers valueForKey:key]) ? [mappers valueForKey:key] : key;

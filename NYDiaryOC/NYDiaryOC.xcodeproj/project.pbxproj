@@ -28,6 +28,7 @@
 		8CF1C6561CC33E65006152E6 /* DiaryRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = 8CF1C64A1CC33E65006152E6 /* DiaryRequest.m */; };
 		8CF1C6571CC33E65006152E6 /* DiaryRequestManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 8CF1C64C1CC33E65006152E6 /* DiaryRequestManager.m */; };
 		8CF1C65B1CC36361006152E6 /* DiaryListCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 8CF1C65A1CC36361006152E6 /* DiaryListCell.m */; };
+		8CF93C7B1CCDDE8400709C7D /* UITextView+NYTextView.m in Sources */ = {isa = PBXBuildFile; fileRef = 8CF93C7A1CCDDE8400709C7D /* UITextView+NYTextView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -90,6 +91,8 @@
 		8CF1C64C1CC33E65006152E6 /* DiaryRequestManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DiaryRequestManager.m; sourceTree = "<group>"; };
 		8CF1C6591CC36361006152E6 /* DiaryListCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DiaryListCell.h; sourceTree = "<group>"; };
 		8CF1C65A1CC36361006152E6 /* DiaryListCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DiaryListCell.m; sourceTree = "<group>"; };
+		8CF93C791CCDDE8400709C7D /* UITextView+NYTextView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UITextView+NYTextView.h"; sourceTree = "<group>"; };
+		8CF93C7A1CCDDE8400709C7D /* UITextView+NYTextView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UITextView+NYTextView.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -191,6 +194,8 @@
 				8CF1C6351CC33E65006152E6 /* NSString+DiaryString.m */,
 				8CF1C6361CC33E65006152E6 /* UIViewController+DiaryAlert.h */,
 				8CF1C6371CC33E65006152E6 /* UIViewController+DiaryAlert.m */,
+				8CF93C791CCDDE8400709C7D /* UITextView+NYTextView.h */,
+				8CF93C7A1CCDDE8400709C7D /* UITextView+NYTextView.m */,
 			);
 			path = Category;
 			sourceTree = "<group>";
@@ -395,6 +400,7 @@
 				8CF1C6501CC33E65006152E6 /* AppDelegate.m in Sources */,
 				8CF1C6511CC33E65006152E6 /* DiaryObject.m in Sources */,
 				8CF1C6551CC33E65006152E6 /* DiaryManager.m in Sources */,
+				8CF93C7B1CCDDE8400709C7D /* UITextView+NYTextView.m in Sources */,
 				8CA40FEF1CAE7AD0001B50BA /* NYDiaryOC.xcdatamodeld in Sources */,
 				8CA40FE31CAE7AD0001B50BA /* main.m in Sources */,
 				8CF1C65B1CC36361006152E6 /* DiaryListCell.m in Sources */,

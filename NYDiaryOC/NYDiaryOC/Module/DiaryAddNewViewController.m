@@ -7,6 +7,7 @@
 //
 
 #import "DiaryAddNewViewController.h"
+#import "UITextView+NYTextView.h"
 
 @interface DiaryAddNewViewController ()
 @property (weak, nonatomic) IBOutlet UITextField *titleTextField;
@@ -32,6 +33,10 @@
     self.contentTextView.layer.borderWidth   = 1.0;
     self.contentTextView.layer.masksToBounds = YES;
     self.contentTextView.layer.cornerRadius  = 5.0;
+    
+    CGFloat padding = 5;
+    CGRect placeholderFrame = CGRectMake(padding, 0, self.contentTextView.bounds.size.width, 20);
+    [self.contentTextView setupPlaceholderString:@"Please Enter Content" frame:placeholderFrame];
 }
 
 - (IBAction)completeDiaryDataForm:(id)sender {

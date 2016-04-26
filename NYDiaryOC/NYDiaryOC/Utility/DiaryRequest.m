@@ -33,17 +33,28 @@
     
     NSURLSession *session = [NSURLSession sharedSession];
     NSURLSessionDataTask *requestTask = [session dataTaskWithRequest:request completionHandler:^(NSData * _Nullable data, NSURLResponse * _Nullable response, NSError * _Nullable error) {
-        
-        if (error) {
-            if (failure != nil) {
-                failure(error);
+        dispatch_async(dispatch_get_main_queue(), ^{
+            if (error) {
+                if (failure != nil) {
+                    failure(error);
+                }
+            } else {
+                id object = [NSJSONSerialization JSONObjectWithData:data options:NSJSONReadingAllowFragments error:nil];
+                NSString *message = [object objectForKey:@"message"];
+                id data = [object objectForKey:@"data"];
+                if ([message isEqualToString:@"Success"]) {
+                    if (success != nil) {
+                        success(data);
+                    }
+                } else {
+                    if (failure != nil) {
+                        NSError *error = [NSError errorWithDomain:@"Request" code:1001 userInfo:@{NSLocalizedDescriptionKey:message}];
+                        failure(error);
+                    }
+                }
+                
             }
-        } else {
-            id object = [NSJSONSerialization JSONObjectWithData:data options:NSJSONReadingAllowFragments error:nil];
-            if (success != nil) {
-                success(object);
-            }
-        }
+        });
     }];
     
     [requestTask resume];

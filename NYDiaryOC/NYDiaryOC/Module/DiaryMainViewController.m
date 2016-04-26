@@ -36,7 +36,6 @@ static NSString * const reuseIdentifier = @"diaryCell";
     [self setupDatas];
     [self setupUI];
     
-    // Do any additional setup after loading the view.
     if (![DiaryManager sharedManager].passwordKey) {
         DiarySetPasswordKeyViewController *setPwdVC =
         [[UIStoryboard storyboardWithName:@"Main" bundle:nil] instantiateViewControllerWithIdentifier:@"DiarySetPasswordVC"];
@@ -102,11 +101,12 @@ static NSString * const reuseIdentifier = @"diaryCell";
             DiaryObject *diary = [DiaryObject modelWithDictionary:diaryDic];
             [self.diaries addObject:diary];
         }
-        dispatch_async(dispatch_get_main_queue(), ^{
-            [self.tableView reloadData];
-        });
-    } failure:^(NSError *error) {
+        [self.tableView reloadData];
         
+    } failure:^(NSError *error) {
+        if (error) {
+            
+        }
     }];
 }
 

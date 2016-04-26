@@ -16,9 +16,6 @@
 		8CA40FF41CAE7AD0001B50BA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8CA40FF21CAE7AD0001B50BA /* LaunchScreen.storyboard */; };
 		8CA40FFF1CAE7AD0001B50BA /* NYDiaryOCTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 8CA40FFE1CAE7AD0001B50BA /* NYDiaryOCTests.m */; };
 		8CA4100A1CAE7AD0001B50BA /* NYDiaryOCUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 8CA410091CAE7AD0001B50BA /* NYDiaryOCUITests.m */; };
-		8CF1C64D1CC33E65006152E6 /* NSObject+DiaryObject.m in Sources */ = {isa = PBXBuildFile; fileRef = 8CF1C6331CC33E65006152E6 /* NSObject+DiaryObject.m */; };
-		8CF1C64E1CC33E65006152E6 /* NSString+DiaryString.m in Sources */ = {isa = PBXBuildFile; fileRef = 8CF1C6351CC33E65006152E6 /* NSString+DiaryString.m */; };
-		8CF1C64F1CC33E65006152E6 /* UIViewController+DiaryAlert.m in Sources */ = {isa = PBXBuildFile; fileRef = 8CF1C6371CC33E65006152E6 /* UIViewController+DiaryAlert.m */; };
 		8CF1C6501CC33E65006152E6 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 8CF1C63A1CC33E65006152E6 /* AppDelegate.m */; };
 		8CF1C6511CC33E65006152E6 /* DiaryObject.m in Sources */ = {isa = PBXBuildFile; fileRef = 8CF1C63E1CC33E65006152E6 /* DiaryObject.m */; };
 		8CF1C6521CC33E65006152E6 /* DiaryMainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8CF1C6411CC33E65006152E6 /* DiaryMainViewController.m */; };
@@ -28,7 +25,10 @@
 		8CF1C6561CC33E65006152E6 /* DiaryRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = 8CF1C64A1CC33E65006152E6 /* DiaryRequest.m */; };
 		8CF1C6571CC33E65006152E6 /* DiaryRequestManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 8CF1C64C1CC33E65006152E6 /* DiaryRequestManager.m */; };
 		8CF1C65B1CC36361006152E6 /* DiaryListCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 8CF1C65A1CC36361006152E6 /* DiaryListCell.m */; };
-		8CF93C7B1CCDDE8400709C7D /* UITextView+NYTextView.m in Sources */ = {isa = PBXBuildFile; fileRef = 8CF93C7A1CCDDE8400709C7D /* UITextView+NYTextView.m */; };
+		8CF5CE781CCE24AA000E8043 /* NSObject+DiaryObject.m in Sources */ = {isa = PBXBuildFile; fileRef = 8CF5CE711CCE24AA000E8043 /* NSObject+DiaryObject.m */; };
+		8CF5CE791CCE24AA000E8043 /* NSString+DiaryString.m in Sources */ = {isa = PBXBuildFile; fileRef = 8CF5CE731CCE24AA000E8043 /* NSString+DiaryString.m */; };
+		8CF5CE7A1CCE24AA000E8043 /* UITextView+NYTextView.m in Sources */ = {isa = PBXBuildFile; fileRef = 8CF5CE751CCE24AA000E8043 /* UITextView+NYTextView.m */; };
+		8CF5CE7B1CCE24AA000E8043 /* UIViewController+DiaryAlert.m in Sources */ = {isa = PBXBuildFile; fileRef = 8CF5CE771CCE24AA000E8043 /* UIViewController+DiaryAlert.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,7 +53,7 @@
 		8C5EE8411CC929A200E5CC8A /* DiaryRefreshControl.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DiaryRefreshControl.m; sourceTree = "<group>"; };
 		8C5EE8431CC94BC000E5CC8A /* DiaryAddNewViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DiaryAddNewViewController.h; sourceTree = "<group>"; };
 		8C5EE8441CC94BC000E5CC8A /* DiaryAddNewViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DiaryAddNewViewController.m; sourceTree = "<group>"; };
-		8CA40FDE1CAE7AD0001B50BA /* NYDiaryOC.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NYDiaryOC.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		8CA40FDE1CAE7AD0001B50BA /* NYDiary测试版.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "NYDiary测试版.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		8CA40FE21CAE7AD0001B50BA /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		8CA40FEB1CAE7AD0001B50BA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		8CA40FEE1CAE7AD0001B50BA /* NYDiaryOC.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = NYDiaryOC.xcdatamodel; sourceTree = "<group>"; };
@@ -66,12 +66,6 @@
 		8CA410051CAE7AD0001B50BA /* NYDiaryOCUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NYDiaryOCUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		8CA410091CAE7AD0001B50BA /* NYDiaryOCUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NYDiaryOCUITests.m; sourceTree = "<group>"; };
 		8CA4100B1CAE7AD0001B50BA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		8CF1C6321CC33E65006152E6 /* NSObject+DiaryObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+DiaryObject.h"; sourceTree = "<group>"; };
-		8CF1C6331CC33E65006152E6 /* NSObject+DiaryObject.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+DiaryObject.m"; sourceTree = "<group>"; };
-		8CF1C6341CC33E65006152E6 /* NSString+DiaryString.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+DiaryString.h"; sourceTree = "<group>"; };
-		8CF1C6351CC33E65006152E6 /* NSString+DiaryString.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+DiaryString.m"; sourceTree = "<group>"; };
-		8CF1C6361CC33E65006152E6 /* UIViewController+DiaryAlert.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIViewController+DiaryAlert.h"; sourceTree = "<group>"; };
-		8CF1C6371CC33E65006152E6 /* UIViewController+DiaryAlert.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+DiaryAlert.m"; sourceTree = "<group>"; };
 		8CF1C6391CC33E65006152E6 /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		8CF1C63A1CC33E65006152E6 /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		8CF1C63B1CC33E65006152E6 /* NYDiaryDefinition.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NYDiaryDefinition.h; sourceTree = "<group>"; };
@@ -91,8 +85,14 @@
 		8CF1C64C1CC33E65006152E6 /* DiaryRequestManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DiaryRequestManager.m; sourceTree = "<group>"; };
 		8CF1C6591CC36361006152E6 /* DiaryListCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DiaryListCell.h; sourceTree = "<group>"; };
 		8CF1C65A1CC36361006152E6 /* DiaryListCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DiaryListCell.m; sourceTree = "<group>"; };
-		8CF93C791CCDDE8400709C7D /* UITextView+NYTextView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UITextView+NYTextView.h"; sourceTree = "<group>"; };
-		8CF93C7A1CCDDE8400709C7D /* UITextView+NYTextView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UITextView+NYTextView.m"; sourceTree = "<group>"; };
+		8CF5CE701CCE24AA000E8043 /* NSObject+DiaryObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+DiaryObject.h"; sourceTree = "<group>"; };
+		8CF5CE711CCE24AA000E8043 /* NSObject+DiaryObject.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+DiaryObject.m"; sourceTree = "<group>"; };
+		8CF5CE721CCE24AA000E8043 /* NSString+DiaryString.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+DiaryString.h"; sourceTree = "<group>"; };
+		8CF5CE731CCE24AA000E8043 /* NSString+DiaryString.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+DiaryString.m"; sourceTree = "<group>"; };
+		8CF5CE741CCE24AA000E8043 /* UITextView+NYTextView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UITextView+NYTextView.h"; sourceTree = "<group>"; };
+		8CF5CE751CCE24AA000E8043 /* UITextView+NYTextView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UITextView+NYTextView.m"; sourceTree = "<group>"; };
+		8CF5CE761CCE24AA000E8043 /* UIViewController+DiaryAlert.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIViewController+DiaryAlert.h"; sourceTree = "<group>"; };
+		8CF5CE771CCE24AA000E8043 /* UIViewController+DiaryAlert.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+DiaryAlert.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -133,7 +133,7 @@
 		8CA40FDF1CAE7AD0001B50BA /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				8CA40FDE1CAE7AD0001B50BA /* NYDiaryOC.app */,
+				8CA40FDE1CAE7AD0001B50BA /* NYDiary测试版.app */,
 				8CA40FFA1CAE7AD0001B50BA /* NYDiaryOCTests.xctest */,
 				8CA410051CAE7AD0001B50BA /* NYDiaryOCUITests.xctest */,
 			);
@@ -143,11 +143,11 @@
 		8CA40FE01CAE7AD0001B50BA /* NYDiaryOC */ = {
 			isa = PBXGroup;
 			children = (
+				8CF5CE6E1CCE24AA000E8043 /* Common */,
 				8CF1C6581CC362C3006152E6 /* View */,
 				8CF1C6461CC33E65006152E6 /* Utility */,
 				8CF1C63F1CC33E65006152E6 /* Module */,
 				8CF1C6381CC33E65006152E6 /* Global */,
-				8CF1C6311CC33E65006152E6 /* Category */,
 				8CF1C63C1CC33E65006152E6 /* Model */,
 				8CA40FF01CAE7AD0001B50BA /* Assets.xcassets */,
 				8CA40FF51CAE7AD0001B50BA /* Info.plist */,
@@ -183,21 +183,6 @@
 				8CA4100B1CAE7AD0001B50BA /* Info.plist */,
 			);
 			path = NYDiaryOCUITests;
-			sourceTree = "<group>";
-		};
-		8CF1C6311CC33E65006152E6 /* Category */ = {
-			isa = PBXGroup;
-			children = (
-				8CF1C6321CC33E65006152E6 /* NSObject+DiaryObject.h */,
-				8CF1C6331CC33E65006152E6 /* NSObject+DiaryObject.m */,
-				8CF1C6341CC33E65006152E6 /* NSString+DiaryString.h */,
-				8CF1C6351CC33E65006152E6 /* NSString+DiaryString.m */,
-				8CF1C6361CC33E65006152E6 /* UIViewController+DiaryAlert.h */,
-				8CF1C6371CC33E65006152E6 /* UIViewController+DiaryAlert.m */,
-				8CF93C791CCDDE8400709C7D /* UITextView+NYTextView.h */,
-				8CF93C7A1CCDDE8400709C7D /* UITextView+NYTextView.m */,
-			);
-			path = Category;
 			sourceTree = "<group>";
 		};
 		8CF1C6381CC33E65006152E6 /* Global */ = {
@@ -258,6 +243,29 @@
 			path = View;
 			sourceTree = "<group>";
 		};
+		8CF5CE6E1CCE24AA000E8043 /* Common */ = {
+			isa = PBXGroup;
+			children = (
+				8CF5CE6F1CCE24AA000E8043 /* Category */,
+			);
+			path = Common;
+			sourceTree = "<group>";
+		};
+		8CF5CE6F1CCE24AA000E8043 /* Category */ = {
+			isa = PBXGroup;
+			children = (
+				8CF5CE701CCE24AA000E8043 /* NSObject+DiaryObject.h */,
+				8CF5CE711CCE24AA000E8043 /* NSObject+DiaryObject.m */,
+				8CF5CE721CCE24AA000E8043 /* NSString+DiaryString.h */,
+				8CF5CE731CCE24AA000E8043 /* NSString+DiaryString.m */,
+				8CF5CE741CCE24AA000E8043 /* UITextView+NYTextView.h */,
+				8CF5CE751CCE24AA000E8043 /* UITextView+NYTextView.m */,
+				8CF5CE761CCE24AA000E8043 /* UIViewController+DiaryAlert.h */,
+				8CF5CE771CCE24AA000E8043 /* UIViewController+DiaryAlert.m */,
+			);
+			path = Category;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -275,7 +283,7 @@
 			);
 			name = NYDiaryOC;
 			productName = NYDiaryOC;
-			productReference = 8CA40FDE1CAE7AD0001B50BA /* NYDiaryOC.app */;
+			productReference = 8CA40FDE1CAE7AD0001B50BA /* NYDiary测试版.app */;
 			productType = "com.apple.product-type.application";
 		};
 		8CA40FF91CAE7AD0001B50BA /* NYDiaryOCTests */ = {
@@ -326,6 +334,7 @@
 				TargetAttributes = {
 					8CA40FDD1CAE7AD0001B50BA = {
 						CreatedOnToolsVersion = 7.2.1;
+						DevelopmentTeam = P66P3CXU58;
 					};
 					8CA40FF91CAE7AD0001B50BA = {
 						CreatedOnToolsVersion = 7.2.1;
@@ -391,20 +400,20 @@
 			files = (
 				8CF1C6531CC33E65006152E6 /* DiarySetPasswordKeyViewController.m in Sources */,
 				8C5EE8451CC94BC000E5CC8A /* DiaryAddNewViewController.m in Sources */,
-				8CF1C64E1CC33E65006152E6 /* NSString+DiaryString.m in Sources */,
+				8CF5CE7A1CCE24AA000E8043 /* UITextView+NYTextView.m in Sources */,
 				8CF1C6521CC33E65006152E6 /* DiaryMainViewController.m in Sources */,
+				8CF5CE791CCE24AA000E8043 /* NSString+DiaryString.m in Sources */,
 				8CF1C6571CC33E65006152E6 /* DiaryRequestManager.m in Sources */,
+				8CF5CE7B1CCE24AA000E8043 /* UIViewController+DiaryAlert.m in Sources */,
 				8C5EE8421CC929A200E5CC8A /* DiaryRefreshControl.m in Sources */,
-				8CF1C64D1CC33E65006152E6 /* NSObject+DiaryObject.m in Sources */,
 				8CF1C6541CC33E65006152E6 /* ViewController.m in Sources */,
+				8CF5CE781CCE24AA000E8043 /* NSObject+DiaryObject.m in Sources */,
 				8CF1C6501CC33E65006152E6 /* AppDelegate.m in Sources */,
 				8CF1C6511CC33E65006152E6 /* DiaryObject.m in Sources */,
 				8CF1C6551CC33E65006152E6 /* DiaryManager.m in Sources */,
-				8CF93C7B1CCDDE8400709C7D /* UITextView+NYTextView.m in Sources */,
 				8CA40FEF1CAE7AD0001B50BA /* NYDiaryOC.xcdatamodeld in Sources */,
 				8CA40FE31CAE7AD0001B50BA /* main.m in Sources */,
 				8CF1C65B1CC36361006152E6 /* DiaryListCell.m in Sources */,
-				8CF1C64F1CC33E65006152E6 /* UIViewController+DiaryAlert.m in Sources */,
 				8CF1C6561CC33E65006152E6 /* DiaryRequest.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -477,7 +486,8 @@
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CODE_SIGN_IDENTITY = "iPhone Distribution: Yao Ni (P66P3CXU58)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: Yao Ni (P66P3CXU58)";
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = dwarf;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
@@ -521,7 +531,8 @@
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CODE_SIGN_IDENTITY = "iPhone Distribution: Yao Ni (P66P3CXU58)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: Yao Ni (P66P3CXU58)";
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				ENABLE_NS_ASSERTIONS = NO;
@@ -545,24 +556,32 @@
 		8CA4100F1CAE7AD0001B50BA /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				APP_DISPLAY_NAME = "NYDiary测试版";
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
 				INFOPLIST_FILE = NYDiaryOC/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = bearni.NYDiaryOC;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = "$(APP_DISPLAY_NAME)";
+				PROVISIONING_PROFILE = "";
 			};
 			name = Debug;
 		};
 		8CA410101CAE7AD0001B50BA /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				APP_DISPLAY_NAME = "N.Y.日记";
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Distribution: Yao Ni (P66P3CXU58)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: Yao Ni (P66P3CXU58)";
 				INFOPLIST_FILE = NYDiaryOC/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = bearni.NYDiaryOC;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = "$(APP_DISPLAY_NAME)";
+				PROVISIONING_PROFILE = "";
 			};
 			name = Release;
 		};
@@ -711,7 +730,8 @@
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CODE_SIGN_IDENTITY = "iPhone Distribution: Yao Ni (P66P3CXU58)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: Yao Ni (P66P3CXU58)";
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				ENABLE_NS_ASSERTIONS = NO;
@@ -735,12 +755,16 @@
 		8CA4101C1CAE7B05001B50BA /* Production */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				APP_DISPLAY_NAME = "N.Y.日记";
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Distribution: Yao Ni (P66P3CXU58)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: Yao Ni (P66P3CXU58)";
 				INFOPLIST_FILE = NYDiaryOC/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = bearni.NYDiaryOC;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = "$(APP_DISPLAY_NAME)";
+				PROVISIONING_PROFILE = "";
 			};
 			name = Production;
 		};

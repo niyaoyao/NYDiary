@@ -20,11 +20,11 @@
 		8CF1C6511CC33E65006152E6 /* DiaryObject.m in Sources */ = {isa = PBXBuildFile; fileRef = 8CF1C63E1CC33E65006152E6 /* DiaryObject.m */; };
 		8CF1C6521CC33E65006152E6 /* DiaryMainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8CF1C6411CC33E65006152E6 /* DiaryMainViewController.m */; };
 		8CF1C6531CC33E65006152E6 /* DiarySetPasswordKeyViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8CF1C6431CC33E65006152E6 /* DiarySetPasswordKeyViewController.m */; };
-		8CF1C6541CC33E65006152E6 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8CF1C6451CC33E65006152E6 /* ViewController.m */; };
 		8CF1C6551CC33E65006152E6 /* DiaryManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 8CF1C6481CC33E65006152E6 /* DiaryManager.m */; };
 		8CF1C6561CC33E65006152E6 /* DiaryRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = 8CF1C64A1CC33E65006152E6 /* DiaryRequest.m */; };
 		8CF1C6571CC33E65006152E6 /* DiaryRequestManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 8CF1C64C1CC33E65006152E6 /* DiaryRequestManager.m */; };
 		8CF1C65B1CC36361006152E6 /* DiaryListCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 8CF1C65A1CC36361006152E6 /* DiaryListCell.m */; };
+		8CF2822A1CD096F70055A858 /* UIViewController+DiaryController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8CF282291CD096F70055A858 /* UIViewController+DiaryController.m */; };
 		8CF5CE781CCE24AA000E8043 /* NSObject+DiaryObject.m in Sources */ = {isa = PBXBuildFile; fileRef = 8CF5CE711CCE24AA000E8043 /* NSObject+DiaryObject.m */; };
 		8CF5CE791CCE24AA000E8043 /* NSString+DiaryString.m in Sources */ = {isa = PBXBuildFile; fileRef = 8CF5CE731CCE24AA000E8043 /* NSString+DiaryString.m */; };
 		8CF5CE7A1CCE24AA000E8043 /* UITextView+NYTextView.m in Sources */ = {isa = PBXBuildFile; fileRef = 8CF5CE751CCE24AA000E8043 /* UITextView+NYTextView.m */; };
@@ -75,8 +75,6 @@
 		8CF1C6411CC33E65006152E6 /* DiaryMainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DiaryMainViewController.m; sourceTree = "<group>"; };
 		8CF1C6421CC33E65006152E6 /* DiarySetPasswordKeyViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DiarySetPasswordKeyViewController.h; sourceTree = "<group>"; };
 		8CF1C6431CC33E65006152E6 /* DiarySetPasswordKeyViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DiarySetPasswordKeyViewController.m; sourceTree = "<group>"; };
-		8CF1C6441CC33E65006152E6 /* ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		8CF1C6451CC33E65006152E6 /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		8CF1C6471CC33E65006152E6 /* DiaryManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DiaryManager.h; sourceTree = "<group>"; };
 		8CF1C6481CC33E65006152E6 /* DiaryManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DiaryManager.m; sourceTree = "<group>"; };
 		8CF1C6491CC33E65006152E6 /* DiaryRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DiaryRequest.h; sourceTree = "<group>"; };
@@ -85,6 +83,8 @@
 		8CF1C64C1CC33E65006152E6 /* DiaryRequestManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DiaryRequestManager.m; sourceTree = "<group>"; };
 		8CF1C6591CC36361006152E6 /* DiaryListCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DiaryListCell.h; sourceTree = "<group>"; };
 		8CF1C65A1CC36361006152E6 /* DiaryListCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DiaryListCell.m; sourceTree = "<group>"; };
+		8CF282281CD096F70055A858 /* UIViewController+DiaryController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIViewController+DiaryController.h"; sourceTree = "<group>"; };
+		8CF282291CD096F70055A858 /* UIViewController+DiaryController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+DiaryController.m"; sourceTree = "<group>"; };
 		8CF5CE701CCE24AA000E8043 /* NSObject+DiaryObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+DiaryObject.h"; sourceTree = "<group>"; };
 		8CF5CE711CCE24AA000E8043 /* NSObject+DiaryObject.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+DiaryObject.m"; sourceTree = "<group>"; };
 		8CF5CE721CCE24AA000E8043 /* NSString+DiaryString.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+DiaryString.h"; sourceTree = "<group>"; };
@@ -211,8 +211,6 @@
 				8CF1C6411CC33E65006152E6 /* DiaryMainViewController.m */,
 				8CF1C6421CC33E65006152E6 /* DiarySetPasswordKeyViewController.h */,
 				8CF1C6431CC33E65006152E6 /* DiarySetPasswordKeyViewController.m */,
-				8CF1C6441CC33E65006152E6 /* ViewController.h */,
-				8CF1C6451CC33E65006152E6 /* ViewController.m */,
 				8C5EE8431CC94BC000E5CC8A /* DiaryAddNewViewController.h */,
 				8C5EE8441CC94BC000E5CC8A /* DiaryAddNewViewController.m */,
 			);
@@ -262,6 +260,8 @@
 				8CF5CE751CCE24AA000E8043 /* UITextView+NYTextView.m */,
 				8CF5CE761CCE24AA000E8043 /* UIViewController+DiaryAlert.h */,
 				8CF5CE771CCE24AA000E8043 /* UIViewController+DiaryAlert.m */,
+				8CF282281CD096F70055A858 /* UIViewController+DiaryController.h */,
+				8CF282291CD096F70055A858 /* UIViewController+DiaryController.m */,
 			);
 			path = Category;
 			sourceTree = "<group>";
@@ -400,13 +400,13 @@
 			files = (
 				8CF1C6531CC33E65006152E6 /* DiarySetPasswordKeyViewController.m in Sources */,
 				8C5EE8451CC94BC000E5CC8A /* DiaryAddNewViewController.m in Sources */,
+				8CF2822A1CD096F70055A858 /* UIViewController+DiaryController.m in Sources */,
 				8CF5CE7A1CCE24AA000E8043 /* UITextView+NYTextView.m in Sources */,
 				8CF1C6521CC33E65006152E6 /* DiaryMainViewController.m in Sources */,
 				8CF5CE791CCE24AA000E8043 /* NSString+DiaryString.m in Sources */,
 				8CF1C6571CC33E65006152E6 /* DiaryRequestManager.m in Sources */,
 				8CF5CE7B1CCE24AA000E8043 /* UIViewController+DiaryAlert.m in Sources */,
 				8C5EE8421CC929A200E5CC8A /* DiaryRefreshControl.m in Sources */,
-				8CF1C6541CC33E65006152E6 /* ViewController.m in Sources */,
 				8CF5CE781CCE24AA000E8043 /* NSObject+DiaryObject.m in Sources */,
 				8CF1C6501CC33E65006152E6 /* AppDelegate.m in Sources */,
 				8CF1C6511CC33E65006152E6 /* DiaryObject.m in Sources */,

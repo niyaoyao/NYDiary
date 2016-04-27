@@ -39,10 +39,10 @@
                                 <color key="backgroundColor" red="0.93725490199999995" green="0.93725490199999995" blue="0.95686274510000002" alpha="1" colorSpace="calibratedRGB"/>
                                 <prototypes>
                                     <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="blue" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" reuseIdentifier="diaryCell" rowHeight="144" id="j23-We-0fX" customClass="DiaryListCell">
-                                        <rect key="frame" x="0.0" y="114" width="600" height="144"/>
+                                        <rect key="frame" x="0.0" y="113.5" width="600" height="144"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="j23-We-0fX" id="JGk-tD-5er">
-                                            <rect key="frame" x="0.0" y="0.0" width="600" height="144"/>
+                                            <rect key="frame" x="0.0" y="0.0" width="600" height="143.5"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
                                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="标题" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="NF3-hH-zSn">
@@ -104,7 +104,7 @@
                         </constraints>
                     </view>
                     <navigationItem key="navigationItem" title="N.Y.日记" id="D61-eR-s1n">
-                        <barButtonItem key="rightBarButtonItem" systemItem="add" id="Vuu-q2-Eyd">
+                        <barButtonItem key="rightBarButtonItem" systemItem="compose" id="Vuu-q2-Eyd">
                             <connections>
                                 <segue destination="Bam-iM-35z" kind="show" id="b8j-94-brU"/>
                             </connections>
@@ -136,24 +136,11 @@
                                 <textInputTraits key="textInputTraits"/>
                             </textField>
                             <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="AIt-a4-xzo">
-                                <rect key="frame" x="20" y="155" width="560" height="260"/>
+                                <rect key="frame" x="20" y="155" width="560" height="425"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                             </textView>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="kew-RH-dP2">
-                                <rect key="frame" x="20" y="437" width="560" height="30"/>
-                                <color key="backgroundColor" red="0.0" green="0.50196081400000003" blue="1" alpha="1" colorSpace="calibratedRGB"/>
-                                <constraints>
-                                    <constraint firstAttribute="height" constant="30" id="OXj-2B-IXC"/>
-                                </constraints>
-                                <state key="normal" title="OK">
-                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                                </state>
-                                <connections>
-                                    <action selector="completeDiaryDataForm:" destination="Bam-iM-35z" eventType="touchUpInside" id="XdU-lp-OVU"/>
-                                </connections>
-                            </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Content" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="beG-9b-beU">
                                 <rect key="frame" x="25" y="122" width="62" height="21"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
@@ -163,12 +150,9 @@
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <constraints>
+                            <constraint firstItem="AXu-8C-jhw" firstAttribute="top" secondItem="AIt-a4-xzo" secondAttribute="bottom" constant="20" id="AKy-wZ-ZHF"/>
                             <constraint firstItem="Fp9-Rd-WIx" firstAttribute="top" secondItem="B7X-L3-zXr" secondAttribute="bottom" constant="20" id="DhV-5h-rfb"/>
                             <constraint firstAttribute="trailingMargin" secondItem="Fp9-Rd-WIx" secondAttribute="trailing" id="G9b-wP-F2R"/>
-                            <constraint firstAttribute="leadingMargin" secondItem="kew-RH-dP2" secondAttribute="leading" id="H6n-Qi-kkp"/>
-                            <constraint firstItem="kew-RH-dP2" firstAttribute="top" secondItem="AIt-a4-xzo" secondAttribute="bottom" constant="22" id="N9w-1d-WNe"/>
-                            <constraint firstItem="AXu-8C-jhw" firstAttribute="top" secondItem="kew-RH-dP2" secondAttribute="bottom" constant="133" id="Paj-yo-F1X"/>
-                            <constraint firstAttribute="trailingMargin" secondItem="kew-RH-dP2" secondAttribute="trailing" id="awb-jV-l3E"/>
                             <constraint firstItem="beG-9b-beU" firstAttribute="leading" secondItem="Fu1-wj-SLi" secondAttribute="leadingMargin" constant="5" id="eas-Q6-1dD"/>
                             <constraint firstItem="beG-9b-beU" firstAttribute="top" secondItem="Fp9-Rd-WIx" secondAttribute="bottom" constant="8" id="m6u-e4-3by"/>
                             <constraint firstAttribute="leadingMargin" secondItem="AIt-a4-xzo" secondAttribute="leading" id="mCL-hk-z8R"/>
@@ -177,7 +161,17 @@
                             <constraint firstItem="AIt-a4-xzo" firstAttribute="top" secondItem="Fp9-Rd-WIx" secondAttribute="bottom" constant="41" id="yzD-oG-kbf"/>
                         </constraints>
                     </view>
+                    <toolbarItems/>
+                    <navigationItem key="navigationItem" title="Title" id="tST-0d-vy5">
+                        <barButtonItem key="rightBarButtonItem" systemItem="done" id="bi9-zJ-2Q2">
+                            <connections>
+                                <action selector="completeDiaryDataForm:" destination="Bam-iM-35z" id="Yzl-Np-4KR"/>
+                            </connections>
+                        </barButtonItem>
+                    </navigationItem>
+                    <nil key="simulatedBottomBarMetrics"/>
                     <connections>
+                        <outlet property="completeButton" destination="bi9-zJ-2Q2" id="0Am-0f-10r"/>
                         <outlet property="contentTextView" destination="AIt-a4-xzo" id="fa6-Af-VZm"/>
                         <outlet property="titleTextField" destination="Fp9-Rd-WIx" id="GaQ-7G-3AQ"/>
                     </connections>

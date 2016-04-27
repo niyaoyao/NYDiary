@@ -9,5 +9,8 @@
 #import <UIKit/UIKit.h>
 
 @interface UIViewController (DiaryController)
-
+/**
+ *  结束编辑
+ */
+- (void)makeViewEndEditing;
 @end

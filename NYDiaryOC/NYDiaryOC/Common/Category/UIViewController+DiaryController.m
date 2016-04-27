@@ -10,4 +10,8 @@
 
 @implementation UIViewController (DiaryController)
 
+- (void)makeViewEndEditing {
+    [self.view endEditing:YES];
+}
+
 @end

@@ -11,11 +11,13 @@
 
 static const char *placeholderLabelKey = "placeholderLabel";
 static const char *textViewActionKey   = "textViewAction";
+static const char *shouldEndEditingKey = "shouldEndEditing";
 
 @interface UITextView () <UITextViewDelegate>
 
 @property (nonatomic, strong) UILabel          *placeholderLabel;
 @property (nonatomic, copy  ) NYTextViewAction textViewAction;
+@property (nonatomic, strong) NSNumber         *shouldEndEditing;
 
 @end
 
@@ -37,6 +39,14 @@ static const char *textViewActionKey   = "textViewAction";
 
 - (void)setTextViewAction:(NYTextViewAction)textViewAction {
     objc_setAssociatedObject(self, textViewActionKey, textViewAction, OBJC_ASSOCIATION_COPY_NONATOMIC);
+}
+
+- (NSNumber *)shouldEndEditing {
+    return objc_getAssociatedObject(self, shouldEndEditingKey);
+}
+
+- (void)setShouldEndEditing:(NSNumber *)shouldEndEditing {
+    objc_setAssociatedObject(self, shouldEndEditingKey, shouldEndEditing, OBJC_ASSOCIATION_RETAIN_NONATOMIC);
 }
 
 #pragma mark - UITextViewDelegate
@@ -73,8 +83,10 @@ static const char *textViewActionKey   = "textViewAction";
         self.textViewAction(NYTextViewActionTypeShouldChangeTextInRange);
     }
     
-    if ([text isEqualToString:@"\n"]) {
-        [textView resignFirstResponder];
+    if (self.shouldEndEditing.boolValue) {
+        if ([text isEqualToString:@"\n"]) {
+            [textView resignFirstResponder];
+        }
     }
     
     return YES;
@@ -120,6 +132,10 @@ static const char *textViewActionKey   = "textViewAction";
 
 - (void)setupTextViewAction:(NYTextViewAction)action {
     self.textViewAction = action;
+}
+
+- (void)setupShouldTextViewEndEditingWhenReturn:(BOOL)shouldEndEditing {
+    self.shouldEndEditing = @(shouldEndEditing);
 }
 
 @end

@@ -39,4 +39,11 @@ typedef void (^NYTextViewAction)(NYTextViewActionType actionType);
  */
 - (void)setupTextViewAction:(NYTextViewAction)action;
 
+/**
+ *  设置换行时是否停止编辑收键盘
+ *
+ *  @param shouldEndEditing 布尔值
+ */
+- (void)setupShouldTextViewEndEditingWhenReturn:(BOOL)shouldEndEditing;
+
 @end

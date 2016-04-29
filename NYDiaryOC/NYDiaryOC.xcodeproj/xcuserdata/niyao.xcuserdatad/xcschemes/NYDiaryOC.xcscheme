@@ -15,7 +15,7 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "8CA40FDD1CAE7AD0001B50BA"
-               BuildableName = "NYDiaryOC.app"
+               BuildableName = "N.Y.&#x65e5;&#x8bb0;.app"
                BlueprintName = "NYDiaryOC"
                ReferencedContainer = "container:NYDiaryOC.xcodeproj">
             </BuildableReference>
@@ -53,7 +53,7 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "8CA40FDD1CAE7AD0001B50BA"
-            BuildableName = "NYDiaryOC.app"
+            BuildableName = "N.Y.&#x65e5;&#x8bb0;.app"
             BlueprintName = "NYDiaryOC"
             ReferencedContainer = "container:NYDiaryOC.xcodeproj">
          </BuildableReference>
@@ -76,7 +76,7 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "8CA40FDD1CAE7AD0001B50BA"
-            BuildableName = "NYDiaryOC.app"
+            BuildableName = "N.Y.&#x65e5;&#x8bb0;.app"
             BlueprintName = "NYDiaryOC"
             ReferencedContainer = "container:NYDiaryOC.xcodeproj">
          </BuildableReference>
@@ -95,7 +95,7 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "8CA40FDD1CAE7AD0001B50BA"
-            BuildableName = "NYDiaryOC.app"
+            BuildableName = "N.Y.&#x65e5;&#x8bb0;.app"
             BlueprintName = "NYDiaryOC"
             ReferencedContainer = "container:NYDiaryOC.xcodeproj">
          </BuildableReference>

@@ -61,7 +61,7 @@
     __weak typeof (self) weakSelf = self;
     DiaryRequest *addNewDiary = [[DiaryRequest alloc] init];
     NSDictionary *parameter = @{
-                                @"nykey" : [DiaryManager sharedManager].passwordKey,
+                                @"diary_key" : [DiaryManager sharedManager].passwordKey,
                                 @"diary_title" : self.titleTextField.text,
                                 @"diary_content" : self.contentTextView.text
                                 };
@@ -73,6 +73,7 @@
         }
     } failure:^(NSError *error) {
         weakSelf.completeButton.enabled = YES;
+        [weakSelf showError:error];
     }];
 }
 

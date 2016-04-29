@@ -14,4 +14,14 @@
     [self.view endEditing:YES];
 }
 
+- (void)showError:(NSError *)error {
+    NSString *errorMessage = error.userInfo[NSLocalizedDescriptionKey];
+    UIAlertView *alert = [[UIAlertView alloc] initWithTitle:@"Error"
+                                                    message:errorMessage
+                                                   delegate:nil
+                                          cancelButtonTitle:@"OK"
+                                          otherButtonTitles:nil];
+    [alert show];
+}
+
 @end

@@ -13,4 +13,10 @@
  *  结束编辑
  */
 - (void)makeViewEndEditing;
+/**
+ *  显示报错
+ *
+ *  @param error 错误实例
+ */
+- (void)showError:(NSError *)error;
 @end

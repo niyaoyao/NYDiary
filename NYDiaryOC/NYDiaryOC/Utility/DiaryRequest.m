@@ -10,6 +10,8 @@
 #import "NYDiaryDefinition.h"
 #import "NSString+DiaryString.h"
 
+#define ERROR_DOMAIN_REQUEST @"Request"
+
 @implementation DiaryRequest
 
 - (void)requestWithMethod:(NSString *)method
@@ -48,7 +50,7 @@
                     }
                 } else {
                     if (failure != nil) {
-                        NSError *error = [NSError errorWithDomain:@"Request" code:1001 userInfo:@{NSLocalizedDescriptionKey:message}];
+                        NSError *error = [NSError errorWithDomain:ERROR_DOMAIN_REQUEST code:1001 userInfo:@{NSLocalizedDescriptionKey:[NSString stringWithFormat:@"%@", message]}];
                         failure(error);
                     }
                 }

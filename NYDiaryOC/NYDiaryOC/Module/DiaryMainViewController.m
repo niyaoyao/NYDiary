@@ -16,6 +16,7 @@
 
 #import "DiaryRequest.h"
 #import "NYDiaryDefinition.h"
+#import "UIViewController+DiaryController.h"
 
 static NSString * const reuseIdentifier = @"diaryCell";
 
@@ -99,14 +100,12 @@ static NSString * const reuseIdentifier = @"diaryCell";
         NSArray *diaries = response;
         for (NSDictionary *diaryDic in diaries) {
             DiaryObject *diary = [DiaryObject modelWithDictionary:diaryDic];
-            [self.diaries addObject:diary];
+            [weakSelf.diaries addObject:diary];
         }
-        [self.tableView reloadData];
+        [weakSelf.tableView reloadData];
         
     } failure:^(NSError *error) {
-        if (error) {
-            
-        }
+        [weakSelf showError:error];
     }];
 }
 

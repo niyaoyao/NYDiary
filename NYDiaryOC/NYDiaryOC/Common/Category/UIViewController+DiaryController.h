@@ -19,4 +19,10 @@
  *  @param error 错误实例
  */
 - (void)showError:(NSError *)error;
+/**
+ *  显示提示信息
+ *
+ *  @param message 信息内容
+ */
+- (void)showMessage:(NSString *)message;
 @end

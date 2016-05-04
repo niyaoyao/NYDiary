@@ -32,7 +32,6 @@
         [DiaryManager sharedManager].passwordKey = self.passwordTextField.text;
         [self dismissViewControllerAnimated:YES completion:nil];
     }
-    
 }
 
 @end

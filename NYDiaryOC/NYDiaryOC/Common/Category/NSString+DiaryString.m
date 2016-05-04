@@ -12,12 +12,13 @@
 
 + (NSString *)parameterStringWithParameters:(NSDictionary *)parameters {
     NSMutableString *parameterString = [[NSMutableString alloc] init];
+    [parameterString appendString:@"?"];
     NSArray *keys = parameters.allKeys;
     
     for (int i = 0 ; i < parameters.count; i++) {
         NSString *key = [keys objectAtIndex:i];
         NSValue *value = parameters[key];
-        [parameterString appendString:[NSString stringWithFormat:@"?%@=%@", key, value]];
+        [parameterString appendString:[NSString stringWithFormat:@"%@=%@", key, value]];
         if ( i + 1 < parameters.count  ) {
             [parameterString appendString:@"&"];
         }

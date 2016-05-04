@@ -91,9 +91,18 @@ static NSString * const reuseIdentifier = @"diaryCell";
 #pragma mark - Request 
 
 - (void)getDiaries {
+    NSString *key = ([DiaryManager sharedManager].passwordKey.length == 0) ?
+    @"" : [DiaryManager sharedManager].passwordKey;
     __weak typeof (self) weakSelf = self;
     DiaryRequest *request = [[DiaryRequest alloc] init];
-    [request requestWithMethod:REQUEST_HTTP_METHOD_GET url:REQUEST_URL_QUERY urlParameters:@{@"id" : @(self.offset)} jsonParameters:nil success:^(id response) {
+    [request requestWithMethod:REQUEST_HTTP_METHOD_GET
+                           url:REQUEST_URL_QUERY
+                 urlParameters:@{
+                                 @"id" : @(self.offset),
+                                 @"diary_key" : key
+                                 }
+                jsonParameters:nil
+                       success:^(id response) {
         if (!weakSelf.isLoadingMore) {
             [weakSelf.diaries removeAllObjects];
         }

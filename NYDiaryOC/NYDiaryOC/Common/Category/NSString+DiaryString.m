@@ -12,7 +12,9 @@
 
 + (NSString *)parameterStringWithParameters:(NSDictionary *)parameters {
     NSMutableString *parameterString = [[NSMutableString alloc] init];
-    [parameterString appendString:@"?"];
+    if(parameters.count > 0) {
+        [parameterString appendString:@"?"];
+    }
     NSArray *keys = parameters.allKeys;
     
     for (int i = 0 ; i < parameters.count; i++) {

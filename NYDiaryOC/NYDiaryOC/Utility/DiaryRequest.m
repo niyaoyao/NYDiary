@@ -26,7 +26,7 @@
     NSMutableURLRequest *request = [NSMutableURLRequest requestWithURL:URL];
     request.HTTPMethod = method;
     
-    if (jsonParameters) {
+    if (jsonParameters.count > 0) {
         NSData *body = [NSJSONSerialization dataWithJSONObject:jsonParameters
                                                        options:NSJSONWritingPrettyPrinted
                                                          error:nil];

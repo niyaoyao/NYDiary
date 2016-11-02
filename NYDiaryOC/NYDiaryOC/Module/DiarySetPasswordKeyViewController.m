@@ -32,6 +32,12 @@
         [DiaryManager sharedManager].passwordKey = self.passwordTextField.text;
         [self dismissViewControllerAnimated:YES completion:nil];
     }
+    
+    void(^block)(NSInteger n);
+    block = ^(NSInteger n){
+        NSLog(@"%ld",(long)n);
+    };
+    block(2);
 }
 
 @end
